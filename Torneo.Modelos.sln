@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Torneo.Modelos", "Torneo.Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelos.API", "Modelos.API\Modelos.API.csproj", "{662EBD13-2E46-42E4-AFEB-4CC4B8CA04B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Torneo.Api.TEST", "Torneo.Api.TEST\Torneo.Api.TEST.csproj", "{23E94D40-63C2-4A91-84B1-F4F8587E2693}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Torneo.ApiTest", "Torneo.ApiTest\Torneo.ApiTest.csproj", "{CD1B9A60-0E02-4E84-A0FB-C2A91988DDD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{662EBD13-2E46-42E4-AFEB-4CC4B8CA04B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{662EBD13-2E46-42E4-AFEB-4CC4B8CA04B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{662EBD13-2E46-42E4-AFEB-4CC4B8CA04B6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{23E94D40-63C2-4A91-84B1-F4F8587E2693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23E94D40-63C2-4A91-84B1-F4F8587E2693}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23E94D40-63C2-4A91-84B1-F4F8587E2693}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23E94D40-63C2-4A91-84B1-F4F8587E2693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1B9A60-0E02-4E84-A0FB-C2A91988DDD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1B9A60-0E02-4E84-A0FB-C2A91988DDD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1B9A60-0E02-4E84-A0FB-C2A91988DDD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1B9A60-0E02-4E84-A0FB-C2A91988DDD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

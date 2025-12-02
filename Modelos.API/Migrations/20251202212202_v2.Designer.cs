@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Modelos.API.Migrations
 {
     [DbContext(typeof(ModelosAPIContext))]
-    [Migration("20251202203939_v2")]
+    [Migration("20251202212202_v2")]
     partial class v2
     {
         /// <inheritdoc />
