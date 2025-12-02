@@ -17,7 +17,7 @@ namespace Torneo.Modelos
         public int TorneoId { get; set; }
 
         // Navegación
-        public Torneo? Torneo { get; set; }
+        public GesTorneo? GesTorneo { get; set; }
         public List<Jugador>? Jugadores { get; set; }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Torneo.Modelos
 {
-    public class Torneo
+    public class GesTorneo
     {
         [Key]
         public int Id { get; set; }
@@ -15,6 +15,7 @@ namespace Torneo.Modelos
         // Navegación
         public List<Equipo>? Equipos { get; set; }
         public List<Partido>? Partidos { get; set; }
+        
 
     }
 }

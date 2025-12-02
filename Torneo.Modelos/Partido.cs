@@ -17,12 +17,13 @@ namespace Torneo.Modelos
         public int GolesB { get; set; }
         
         public int TorneoId { get; set; }
-        public int EquipoAId { get; set; }
-        public int EquipoBId { get; set; }
+        public int EquipoId { get; set; }
+     
         
-        public Torneo? Torneo { get; set; }
-        public Equipo? EquipoA { get; set; }
-        public Equipo? EquipoB { get; set; }
+        public GesTorneo? GesTorneo { get; set; }
+        public Equipo? Equipo { get; set; } 
+
+        public List<EstadisticaJugador>? Estadisticas { get; set; }
     }
 
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Torneo.Modelos
 {
-    public class TablaPosiciones
+    public class TablaPosicion
     {
         [Key]
         public int Id { get; set; }
@@ -23,7 +23,7 @@ namespace Torneo.Modelos
         public int EquipoId { get; set; }
 
         // Navegación
-        public Torneo? Torneo { get; set; }
+        public GesTorneo? GesTorneo { get; set; }
         public Equipo? Equipo { get; set; }
     }
 }
